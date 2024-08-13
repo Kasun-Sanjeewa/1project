@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Hero from "../components/ui/Hero";
 
 export default function Home() {
