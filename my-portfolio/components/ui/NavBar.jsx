@@ -5,7 +5,7 @@ export const NavBar = () => {
         <div>
             <header className="bg-white">
                 <div className="mx-auto flex h-16 max-w-screen-xl items-center gap-8 px-4 sm:px-6 lg:px-8">
-                    <a className="block text-teal-600" href="#">
+                    <a className="block text-teal-600" href="/">
                         <span className="sr-only">Home</span>
                         <svg className="h-8" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path
@@ -48,14 +48,14 @@ export const NavBar = () => {
                             <div className="sm:flex sm:gap-4">
                                 <a
                                     className="block rounded-md bg-teal-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-teal-700"
-                                    href="#"
+                                    href="/login"
                                 >
                                     Login
                                 </a>
 
                                 <a
                                     className="hidden rounded-md bg-gray-100 px-5 py-2.5 text-sm font-medium text-teal-600 transition hover:text-teal-600/75 sm:block"
-                                    href="#"
+                                    href="/register"
                                 >
                                     Register
                                 </a>

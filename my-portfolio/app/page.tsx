@@ -1,6 +1,5 @@
 import Link from "next/link";
 import Hero from "../components/ui/Hero";
-import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 
 export default function Home() {
   return (
